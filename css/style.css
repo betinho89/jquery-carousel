@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), 
+  url('/../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), 
+  url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), 
+  url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'),
+  url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.carousel {
+  height: 350px;
+  margin: 0 auto;
+  max-width: 500px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.carousel .carousel-content {
+  float: left;
+  line-height: 0;
+  position: relative;
+  width: 100%;
+}
+.carousel .carousel-content .carousel-element {
+  float: left;
+}
+.carousel .carousel-control .left-control,
+.carousel .carousel-control .right-control{
+position: absolute;
+top: 0;
+
+}
+.carousel .carousel-control .left-control{
+left:0;
+}
+.carousel .carousel-control .right-control{
+right: 0;
+}
+.carousel .carousel-control .left-control:before,
+.carousel .carousel-control .right-control:before{
+  font-family: 'FontAwesome';
+  color: #222;
+  font-size: 30px;
+  line-height: 45px;
+}
+.carousel .carousel-control .left-control:before{
+  content: "\f060";
+}
+.carousel .carousel-control .right-control:before{
+  content: "\f061";
+}
